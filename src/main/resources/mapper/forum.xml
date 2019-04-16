@@ -6,6 +6,10 @@
 		select forum_id forumId,forum_name forumName,forum_desc forumDesc from t_forum where forum_id=#{forumId}
 	</select>
 	
+	<select id="getAllForum" resultType="Forum">
+		select forum_id forumId,forum_name forumName,forum_desc forumDesc from t_forum 
+	</select>
+	
 	<insert id="addForum" parameterType="Forum">
 		insert into t_forum (forum_name,forum_desc) values (#{forumName},#{forumDesc})
 	</insert>
