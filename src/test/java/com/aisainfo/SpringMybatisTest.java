@@ -16,13 +16,14 @@ public class SpringMybatisTest {
 //		System.out.println(forum);
 
 		Forum forum = new Forum();
+		forum.setForumId(3);
 		forum.setForumName("a");
 		forum.setForumDesc("desc");
 		
 //		int result = forumServiceImpl.addForum(forum);
 //		System.out.println(result);
-		Forum forumRet = forumServiceImpl.getForumById(1);
-		forumRet = forumServiceImpl.getForumById(1);
+		Forum forumRet = forumServiceImpl.getForumById4(1, forum);
+		forumRet = forumServiceImpl.getForumById4(1, forum);
 		System.out.println(forumRet);
 	}
 }
