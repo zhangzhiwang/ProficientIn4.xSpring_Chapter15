@@ -33,6 +33,6 @@
 	<bean id="sqlSessionFactoryTemplate" class="org.mybatis.spring.SqlSessionTemplate">
 		<constructor-arg ref="sqlSessionFactory"></constructor-arg>
 	</bean>
-	<!-- 将Mybatis的接口转换为Spring的bean -->
+	<!-- 将Mybatis的DAO接口转换为Spring的bean -->
 	<bean id="mapperScannerConfigurer" class="org.mybatis.spring.mapper.MapperScannerConfigurer" p:sqlSessionFactoryBeanName="sqlSessionFactory" p:basePackage="com.asiainfo.dao.interfaces"></bean>
 </beans>
