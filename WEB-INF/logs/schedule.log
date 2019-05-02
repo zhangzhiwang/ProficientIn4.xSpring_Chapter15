@@ -1,0 +1,27 @@
+2019-04-14 11:25:45  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2147545b: startup date [Sun Apr 14 11:25:45 CST 2019]; root of context hierarchy
+2019-04-14 11:25:45  [ main:34 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-04-14 11:25:45  [ main:315 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2019-04-14 11:25:45  [ main:320 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-14 11:26:49  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@13ed9bc5: startup date [Sun Apr 14 11:26:49 CST 2019]; root of context hierarchy
+2019-04-14 11:26:49  [ main:34 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-04-14 11:26:50  [ main:292 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2019-04-14 11:26:50  [ main:296 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-14 11:30:41  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@55308275: startup date [Sun Apr 14 11:30:41 CST 2019]; root of context hierarchy
+2019-04-14 11:30:41  [ main:48 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-04-14 11:30:41  [ main:370 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2019-04-14 11:30:41  [ main:375 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-14 11:33:32  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@6e27491a: startup date [Sun Apr 14 11:33:32 CST 2019]; root of context hierarchy
+2019-04-14 11:33:33  [ main:34 ] - [ INFO ]  Loading XML bean definitions from class path resource [applicationContext.xml]
+2019-04-14 11:33:33  [ main:306 ] - [ DEBUG ]  Identified candidate component class: file [/Applications/Eclipse.app/Contents/Eclipse/workspace/ProficientIn4.xSpring_Chapter15/target/classes/com/asiainfo/dao/interfaces/IForumDao.class]
+2019-04-14 11:33:33  [ main:306 ] - [ DEBUG ]  Creating MapperFactoryBean with name 'IForumDao' and 'com.asiainfo.dao.interfaces.IForumDao' mapperInterface
+2019-04-14 11:33:33  [ main:313 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2019-04-14 11:33:33  [ main:318 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-14 11:33:33  [ main:466 ] - [ DEBUG ]  Parsed configuration file: 'class path resource [myBatisConfig.xml]'
+2019-04-14 11:33:33  [ main:513 ] - [ DEBUG ]  Parsed mapper file: 'file [/Applications/Eclipse.app/Contents/Eclipse/workspace/ProficientIn4.xSpring_Chapter15/target/classes/mapper/forum.xml]'
+2019-04-14 11:33:33  [ main:816 ] - [ DEBUG ]  Creating a new SqlSession
+2019-04-14 11:33:33  [ main:819 ] - [ DEBUG ]  Registering transaction synchronization for SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ad3359d]
+2019-04-14 11:33:33  [ main:824 ] - [ DEBUG ]  JDBC Connection [jdbc:mysql://localhost:3306/sampledb2, UserName=root@localhost, MySQL Connector Java] will be managed by Spring
+2019-04-14 11:33:33  [ main:839 ] - [ DEBUG ]  Releasing transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ad3359d]
+2019-04-14 11:33:33  [ main:839 ] - [ DEBUG ]  Transaction synchronization committing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ad3359d]
+2019-04-14 11:33:33  [ main:839 ] - [ DEBUG ]  Transaction synchronization deregistering SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ad3359d]
+2019-04-14 11:33:33  [ main:839 ] - [ DEBUG ]  Transaction synchronization closing SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@1ad3359d]
